@@ -37,38 +37,44 @@ project-root/
 1. **Navigate to the backend directory**:
 ```bash
 cd backend
-    
+```    
 2. **Set Up a Python Virtual Environment**:
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-3. **Install Python dependencies**:
+```
+4. **Install Python dependencies**:
+```bash
 pip install -r requirements.txt
+```
 
-
-4. **Run the FastAPI server**:
+5. **Run the FastAPI server**:
+```bash
 uvicorn main:app --reload
+```
 
 This command starts the FastAPI server with live reloading.
 
 ### Setting Up the Frontend (bash, MacOS)
 
 1. **Navigate to the frontend directory**:
+```bash
 cd ../frontend
+```
 
-
-2. **Install Node dependencies**:
+3. **Install Node dependencies**:
+```bash
 npm install
+```
 
-
-3. **Start the React development server**:
+4. **Start the React development server**:
+```bash
 npm start
-
-The server typically runs at `http://localhost:3000`.
+```
 
 ## Usage
 
-1. **Web Interface**: Access the interface at `http://localhost:3000`.
+1. **Web Interface**: Access the interface at localhost
 2. **Input YouTube Video URL**: Enter the URL of the lecture video to process.
 3. **Generate Flashcards**: The backend extracts text, identifies key concepts, and presents them as flashcards on the frontend.
 
@@ -77,7 +83,4 @@ The server typically runs at `http://localhost:3000`.
 - **YouTube Document Retrieval**: The `YoutubeProcessor` uses `YoutubeLoader` to fetch video scripts, which are then split into manageable documents.
 - **Concept Extraction**: `GeminiProcessor` employs Google Vertex AI and Gemini models to extract key concepts, showcasing the application of generative AI in educational technology.
 - **Error Handling and Logging**: Extensive logging to trace steps and handle errors gracefully.
-
-##Acknowledgement
-This project, "Gemini Dynamo," was developed with the invaluable guidance and structured mission tasks provided by Radical AI. I extend my heartfelt thanks to Rex, the AI coach, whose expert advice steered me through the complexities of the project. Additionally, I am grateful for the instructional videos created by the Radical AI team. These resources not only explained the nuances of the code but also provided detailed insights into the subtleties of the project, enhancing my understanding and execution of the tasks. Their support has been instrumental in the successful completion of this project.
 
