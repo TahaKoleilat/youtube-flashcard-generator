@@ -1,14 +1,13 @@
-
-# YouTube Video Flashcard Generator
+# Youtube Video Flashcard Generator
 
 ## Overview
-This application generates flashcards from YouTube video transcripts, making it a useful tool in educational settings. It features a backend built with FastAPI and utilizes Google's Vertex AI and Gemini models to process video content. In fronend, the interactive web interface is build via React. This application integrates advanced generative AI techniques to extract scripts, summarize text, and identify key educational concepts.
+Welcome to the Video Transcript Flashcard Wizard! This application is a boon for educators, utilizing cutting-edge technology to generate flashcards from YouTube video transcripts. Behind the scenes, it leverages FastAPI for the backend, while employing Google's Vertex AI and Gemini models for video content processing. The frontend is crafted with React, offering an intuitive and interactive user experience. Dive into the realm of advanced generative AI techniques, extracting scripts, summarizing text, and pinpointing key educational concepts effortlessly.
 
-## Features
-- **Script Extraction with Langchain**: Utilizes Langchain modules for state-of-the-art script extraction from YouTube videos, ensuring high accuracy in text capture.
-- **Generative AI for Concept Extraction**: Employs Google Gemini and Vertex AI API to analyze the text and extract key concepts, which are essential for creating educational flashcards.
-- **Secure Integration with Service Accounts**: Ensures secure API calls and data processing through properly configured Google service accounts, maintaining high standards of data privacy and security.
-- **Interactive Flashcard Generation**: Converts the identified concepts into interactive flashcards with the definitions, making studying more effective and engaging.
+## Key Features
+- **Effortless Script Extraction**: Powered by Langchain modules, ensuring precise extraction of text from YouTube videos.
+- **AI-driven Concept Extraction**: Harnessing the prowess of Google's Gemini and Vertex AI API to identify pivotal educational concepts.
+- **Secure API Integration**: Safeguarding data privacy and security with seamless integration and properly configured Google service accounts.
+- **Engaging Flashcard Generation**: Transforming identified concepts into dynamic flashcards, fostering effective and enjoyable learning experiences.
 
 ## Project Structure
 
@@ -33,9 +32,10 @@ project-root/
 - Node.js 14+
 - npm or yarn
 
-### Setting Up the Backend (bash, MacOS)
+### Backend Setup (bash, MacOS)
 
 1. **Navigate to the backend directory**:
+```bash
 cd backend
     
 2. **Set Up a Python Virtual Environment**:
