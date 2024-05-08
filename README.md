@@ -10,7 +10,7 @@ Welcome to the Video Transcript Flashcard Wizard! This application is a boon for
 - **Engaging Flashcard Generation**: Transforming identified concepts into dynamic flashcards, fostering effective and enjoyable learning experiences.
 
 ## Project Structure
-bash ```
+```bash
 project-root/
 │
 ├── backend/             # FastAPI application
