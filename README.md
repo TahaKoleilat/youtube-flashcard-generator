@@ -43,12 +43,12 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
-4. **Install Python dependencies**:
+3. **Install Python dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. **Run the FastAPI server**:
+4. **Run the FastAPI server**:
 ```bash
 uvicorn main:app --reload
 ```
@@ -62,12 +62,12 @@ This command starts the FastAPI server with live reloading.
 cd ../frontend
 ```
 
-3. **Install Node dependencies**:
+2. **Install Node dependencies**:
 ```bash
 npm install
 ```
 
-4. **Start the React development server**:
+3. **Start the React development server**:
 ```bash
 npm start
 ```
