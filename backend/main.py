@@ -5,8 +5,6 @@ from services.genai import (YoutubeProcessor,
                             GeminiProcessor)
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "auth.json"
-
 class VideoAnalysisRequest(BaseModel):
     youtube_link: HttpUrl
     #advanced settings
